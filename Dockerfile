@@ -22,5 +22,5 @@ RUN pip install \
     torch \
     jupyterlab
 
-CMD ['"jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.iopub_data_rate_limit=1.0e10 --NotebookApp.token='superres' --notebook-dir='/'" > /home/run_nb.sh']
+CMD ["bash"]
 EXPOSE 8888
