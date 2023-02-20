@@ -22,5 +22,6 @@ RUN pip install \
     torch \
     jupyterlab
 
+
 CMD ["bash"]
 EXPOSE 8888
