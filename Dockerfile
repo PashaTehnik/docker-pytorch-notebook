@@ -20,7 +20,8 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 RUN pip install \
     numpy \
     torch \
-    jupyterlab
+    jupyterlab \
+    pandas
 
 
 CMD ["bash"]
