@@ -60,3 +60,10 @@ docker run --rm \                       # remove the container when it exits
            -e JUPYTER_TOKEN=passwd \    # Jupyter password: passwd
            -d tverous/pytorch-notebook:latest
 ```
+
+
+
+
+```
+
+```
