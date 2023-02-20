@@ -66,5 +66,9 @@ docker run --rm \                       # remove the container when it exits
 
 ```
 #5-8
+
 docker run --rm  -it -p 710_:8888 --gpus '"device=1"' -v /local_vol:/home -e -d jupyter_pytorch:latest
+
+jupyter lab --ip=0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.iopub_data_rate_limit=1.0e10 --NotebookApp.token=test --notebook-dir=/
+
 ```
