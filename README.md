@@ -65,5 +65,6 @@ docker run --rm \                       # remove the container when it exits
 
 
 ```
-
+#5-8
+docker run --rm  -it -p 710_:8888 --gpus '"device=1"' -v /local_vol:/home -e -d jupyter_pytorch:latest
 ```
